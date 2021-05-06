@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./Components/NavBar";
+import TitleFooter from "./Components/ComponenteTitleAndFooter";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <div>App</div> */}
+      <TitleFooter
+        text="React -- basic functionality -- "
+        fontF="cursive"
+        fontS="44px"
+        alignment="center"
+        padding="33px"
+        fgColor="white"
+        bgColor="mediumseagreen"
+      />
+          <Navbar></Navbar>
+
+      <div>
+      </div>
+ 
+      <div className='mt-2'>
+        <TitleFooter
+                  text="developed by tarallo giuseppe &copy; London 2021"
+                  fontF="cursive"
+                  fontS="22px"
+                  alignment="center"
+                  padding="11px"
+                  fgColor="darkblue"
+                  bgColor="mediumseagreen"
+          />
+      </div>
+      
     </div>
   );
-}
+};
 
 export default App;

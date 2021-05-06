@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "id": "1620320349502",
+      "name": "Giuseppe",
+      "prename": "Tarallo",
+      "message": "test Rest API"
+    }
+  ]
+}

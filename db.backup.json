@@ -1,0 +1,22 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "name": "pippo",
+        "prename": "franco",
+        "message": "first message"
+      },
+      {
+        "id": 2,
+        "name": "pino",
+        "prename": "baudo",
+        "message": "second message"
+      },
+      {
+        "id": 3,
+        "name": "peppe",
+        "prename": "attila",
+        "message": "third message"
+      }
+    ]
+  }

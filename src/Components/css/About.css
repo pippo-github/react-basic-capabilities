@@ -1,0 +1,56 @@
+.mainParag{
+    color: rgb(252, 252, 252);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+#grigImg{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,  minmax(520px, 1fr));
+    grid-gap: 22px;
+    text-align: center;
+}
+
+.blockGrid{
+    width: 750px;
+}
+
+#grigImg > div > img{
+    width: 520px;
+    height: 350px;
+}
+
+.paragrafoImg  > p{
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+@media   ( max-width: 768px ){
+
+    #grigImg{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #grigImg > div{
+        margin: 11px auto;
+        padding: 11px;
+        border-radius: 5px;
+    }
+
+    #grigImg > div > img{
+        width: 100%;
+        min-height: 30px;
+        }
+
+    .paragrafoImg{
+        display: none;
+    }
+}
