@@ -19,7 +19,7 @@ This application show you, al main basics capiblities of React framework, among 
  * modules import/export
  * elements iteration
  * add/remove value from Rest API
- * Fake backend JSON serve
+ * Fake backend JSON server
 
 
 Further description information will be found directly in the application pages, where each one will deal with one or more characteristics of the previous list.
