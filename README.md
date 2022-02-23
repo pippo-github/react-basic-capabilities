@@ -67,7 +67,7 @@ Quest'applicazione progetto mostra, tutte le principali funzionalità di base de
  * modules import/export
  * elements iteration
  * add/remove value from Rest API
- * Fake backend JSON serve
+ * Fake backend JSON server
 
 
 Ulteriori informazioni di descrizione si troveranno direttamente nelle pagine dell'applicazione, dove ciascuna tratterà una o più caratteristiche della lista precedente.
