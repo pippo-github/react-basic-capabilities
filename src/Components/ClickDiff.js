@@ -104,7 +104,7 @@ const ClickDiff = () =>{
         <ButtonComponent bntType="btn btn-success mt-4" label='btn async event'  functionClick={ () => clickAsync() }/>
 
         <div style={ my_style_div }>
-            <div style={ my_style_label }> sintax </div>
+            <div style={ my_style_label }> Syntax </div>
             <div> 
                 <pre style={{color: "green", minHeight: "222px"}}>
 
