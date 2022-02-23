@@ -239,7 +239,7 @@ const FormRestAPI = () => {
 
         <div style={ my_style_div }>
             
-            <div style={ my_style_label }> NPM sintax </div>
+            <div style={ my_style_label }> NPM syntax </div>
             <div> 
                 <pre style={{color: "green"}}>
 
@@ -247,7 +247,7 @@ const FormRestAPI = () => {
 
                 </pre> 
 
-            <div style={ my_style_label }> package.json sintax </div>
+            <div style={ my_style_label }> package.json syntax </div>
 
                 <pre style={{color: "green"}}>
 
